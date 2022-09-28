@@ -1,5 +1,8 @@
 
 import './App.css';
+import ImagemLogo from"./assets/ImagemLogo.jpg";
+import ManageData from './components/ManageData';
+import ListRender from './components/ListRender';
 
 function App() {
   return (
@@ -9,6 +12,13 @@ function App() {
       <div>
         <img src="/3296.jpg" alt="img" />
       </div>
+      {/* IMAGEM EM ASSETS */}
+      <div>
+        <img className='img' src={ImagemLogo} alt="universo" />
+      </div>
+      <ManageData/>
+      <ListRender/>
+      
     </div>
   );
 }
