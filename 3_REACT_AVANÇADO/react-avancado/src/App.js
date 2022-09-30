@@ -3,6 +3,7 @@ import './App.css';
 import ImagemLogo from"./assets/ImagemLogo.jpg";
 import ManageData from './components/ManageData';
 import ListRender from './components/ListRender';
+import JavaScriptES6 from './components/JavaScriptES6';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </div>
       <ManageData/>
       <ListRender/>
+      <JavaScriptES6 />
       
     </div>
   );
